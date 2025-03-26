@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 function Portfolio() {
   const projects = [
-    { src: "src/assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
-    { src: "src/assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
-    { src: "src/assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
-    { src: "src/assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
+    { src: "assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
+    { src: "assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
+    { src: "assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
+    { src: "assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API" },
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
@@ -17,7 +17,7 @@ function Portfolio() {
   return (
     <div id="portfolio" className="w-full flex flex-col justify-center items-center">
       
-      <div className="bg-[url('src/assets/portfolio/PortfolioBG.jpg')] flex justify-center items-center w-full bg-cover bg-no-repeat">
+      <div className="bg-[url('assets/portfolio/PortfolioBG.jpg')] flex justify-center items-center w-full bg-cover bg-no-repeat">
         <h1 className="uppercase text-2xl tracking-widest border-b-4 border-gray-500 font-bold px-10 py-4 my-10">
           Portfolio
         </h1>

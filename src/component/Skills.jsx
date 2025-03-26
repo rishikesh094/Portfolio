@@ -10,13 +10,13 @@ function Skills() {
         <h2 className='uppercase tracking-widest font-bold text-xl text-center mb-6'>Using Now:</h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center'>
           {[
-            { src: 'src/assets/htmlIcon.webp', label: 'HTML5' },
-            { src: 'src/assets/cssIcon.webp', label: 'CSS3' },
-            { src: 'src/assets/jsIcon.webp', label: 'JAVASCRIPT' },
-            { src: 'src/assets/bootstrapIcon.webp', label: 'BOOTSTRAP' },
-            { src: 'src/assets/tailwindIcon.webp', label: 'TAILWIND' },
-            { src: 'src/assets/reactIcon.webp', label: 'REACT' },
-            { src: 'src/assets/gitIcon.webp', label: 'GIT' },
+            { src: 'assets/htmlIcon.webp', label: 'HTML5' },
+            { src: 'assets/cssIcon.webp', label: 'CSS3' },
+            { src: 'assets/jsIcon.webp', label: 'JAVASCRIPT' },
+            { src: 'assets/bootstrapIcon.webp', label: 'BOOTSTRAP' },
+            { src: 'assets/tailwindIcon.webp', label: 'TAILWIND' },
+            { src: 'assets/reactIcon.webp', label: 'REACT' },
+            { src: 'assets/gitIcon.webp', label: 'GIT' },
           ].map((skill, index) => (
             <div key={index} className='flex flex-col items-center'>
               <img src={skill.src} className='w-16 md:w-20' alt={skill.label} />
@@ -31,10 +31,10 @@ function Skills() {
         <h2 className='uppercase tracking-widest font-bold text-xl text-center mb-6'>Learning:</h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center'>
           {[
-            { src: 'src/assets/nodeIcon.webp', label: 'NODE JS' },
-            { src: 'src/assets/mysqlIcon.webp', label: 'MySQL' },
-            { src: 'src/assets/mongodbIcon.webp', label: 'MONGODB' },
-            { src: 'src/assets/expressIcon.png', label: 'EXPRESS JS' },
+            { src: 'assets/nodeIcon.webp', label: 'NODE JS' },
+            { src: 'assets/mysqlIcon.webp', label: 'MySQL' },
+            { src: 'assets/mongodbIcon.webp', label: 'MONGODB' },
+            { src: 'assets/expressIcon.png', label: 'EXPRESS JS' },
           ].map((skill, index) => (
             <div key={index} className='flex flex-col items-center'>
               <img src={skill.src} className='w-16 md:w-20' alt={skill.label} />
@@ -49,9 +49,9 @@ function Skills() {
         <h2 className='uppercase tracking-widest font-bold text-xl text-center mb-6'>Other Skills:</h2>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center'>
           {[
-            { src: 'src/assets/cIcon.webp', label: 'C' },
-            { src: 'src/assets/c++Icon.webp', label: 'C++' },
-            { src: 'src/assets/javaIcon.webp', label: 'JAVA' },
+            { src: 'assets/cIcon.webp', label: 'C' },
+            { src: 'assets/c++Icon.webp', label: 'C++' },
+            { src: 'assets/javaIcon.webp', label: 'JAVA' },
           ].map((skill, index) => (
             <div key={index} className='flex flex-col items-center'>
               <img src={skill.src} className='w-16 md:w-20' alt={skill.label} />

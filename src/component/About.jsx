@@ -19,7 +19,7 @@ function About() {
         
         {/* separator image */}
         <div className='invert flex justify-center items-center my-16'>
-          <img src="src/assets/separatorWhite.png" alt="" />
+          <img src="assets/separatorWhite.png" alt="" />
         </div>
 
         <div className='mt-6 grid grid-cols-1 md:grid-cols-2 gap-6  '>
@@ -44,7 +44,7 @@ function About() {
 
          {/* separator image */}
          <div className='invert flex justify-center items-center my-16'>
-          <img src="src/assets/separatorWhite.png" alt="" />
+          <img src="assets/separatorWhite.png" alt="" />
         </div>
         
       </div>

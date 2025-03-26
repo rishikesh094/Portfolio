@@ -9,7 +9,7 @@ function Contact() {
                 <p>If you are interested in my portfolio or would like to hire me for your project, please contact me via email (vbvber) or use the form below.</p>
             </div>
             <div className='invert flex justify-center items-center my-8'>
-                <img src="src/assets/separatorWhite.png" alt="" />
+                <img src="assets/separatorWhite.png" alt="" />
             </div>
 
             <div className="md:w-1/3 w-full group">

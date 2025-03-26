@@ -19,7 +19,7 @@ function Home() {
                     </div>
 
                     <div className='z-0 flex justify-center items-center my-6'>
-                        <img src="src/assets/separatorWhite.png" alt="" />
+                        <img src="assets/separatorWhite.png" alt="" />
                     </div>
 
                     <div className='mt-4 z-0 flex justify-center items-center'>
