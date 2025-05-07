@@ -19,6 +19,7 @@ function NavBar() {
         if (section) {
             section.scrollIntoView({ behavior: "smooth" });
         }
+        setIsOpen(false);
     };
 
     return (
@@ -39,8 +40,8 @@ function NavBar() {
                     <button onClick={() => scrollToSection("contact")} className="bg-white py-2 px-4 rounded-3xl font-bold text-black hover:bg-gray-100 transition">CONTACT ME</button>
                 </div>
 
-                <button className="md:hidden text-2xl mx-4" onClick={() => setIsOpen(!isOpen)}>
-                    ☰
+                <button className="md:hidden text-2xl mx-4" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle navigation">
+                    {isOpen ? "✖" : "☰"}
                 </button>
             </div>
 
