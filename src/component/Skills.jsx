@@ -17,20 +17,6 @@ function Skills() {
             { src: 'assets/tailwindIcon.webp', label: 'TAILWIND' },
             { src: 'assets/reactIcon.webp', label: 'REACT' },
             { src: 'assets/gitIcon.webp', label: 'GIT' },
-          ].map((skill, index) => (
-            <div key={index} className='flex flex-col items-center'>
-              <img src={skill.src} className='w-16 md:w-20' alt={skill.label} />
-              <span className='text-sm md:text-base'>{skill.label}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-      
-      {/* Learning Section */}
-      <div className='w-full max-w-3xl py-8'>
-        <h2 className='uppercase tracking-widest font-bold text-xl text-center mb-6'>Learning:</h2>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center'>
-          {[
             { src: 'assets/nodeIcon.webp', label: 'NODE JS' },
             { src: 'assets/mysqlIcon.webp', label: 'MySQL' },
             { src: 'assets/mongodbIcon.webp', label: 'MONGODB' },

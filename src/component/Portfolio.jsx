@@ -3,8 +3,8 @@ import React, { useState } from "react";
 function Portfolio() {
 
   const projects = [
-    { src: "assets/portfolio/geolocation.jpg", label: "Current Location", description: "Basic JavaScript application using API", github:"https://github.com/rishikesh094/Geolocation-Project.git" },
-    { src: "https://i.pinimg.com/736x/95/27/90/952790a5db56061e9fb56c78ec90a9c8.jpg", label: "Currency Converter", description: "Currency Converter application using React", github:"https://github.com/rishikesh094/React-Currency-Convertor" },
+    { src: "https://i.pinimg.com/1200x/d9/ef/49/d9ef49255cce5efa001424eda0cf64d9.jpg", label: "Kind Heart Charity", description: "Heart Charity Organization website using HTML and Tailwind CSS", github:"https://github.com/rishikesh094/w3villa-intern-projects/tree/main/Charity%20Organisation",demo:"https://heart-charity.netlify.app/" },
+    { src: "https://i.pinimg.com/736x/95/27/90/952790a5db56061e9fb56c78ec90a9c8.jpg", label: "Expense Tracker", description: "A Full Stack Expense Tracker Web Application using MERN Stack", github:"https://github.com/rishikesh094/expense-tracker", demo:"https://expense-tracker-pz8m.onrender.com" },
     { src: "assets/portfolio/textifyit.png", label: "TextifyIt", description: "TextifyIt: Simplifying text transformation and enhancement tool.", github:"https://github.com/rishikesh094/TextifyIt" },
     { src: "https://i.pinimg.com/736x/2b/6c/51/2b6c5188f1db3427ffa4d4e6940d656c.jpg", label: "Password Generator", description: "A React-based password generator that creates customizable, secure passwords.", github:"https://github.com/rishikesh094/Password-Generator" },
   ];
@@ -47,7 +47,7 @@ function Portfolio() {
                 <h2 className="md:text-4xl text-2xl font-bold tracking-widest my-2">{project.label}</h2>
                 <p className="md:text-md text-sm my-2">{project.description}</p>
                 <div className="w-1/2 flex justify-between my-8">
-                  <button className="border-x-2 px-4 hover:bg-white hover:text-black transition-all duration-200">Demo</button>
+                  <a href={project.demo} target="_blank" className="border-x-2 px-4 hover:bg-white hover:text-black transition-all duration-200">Demo</a>
                   <a href={project.github} target="_blank" className="border-x-2 px-4 hover:bg-white hover:text-black transition-all duration-200" >GitHub</a>
                 </div>
               </div>
